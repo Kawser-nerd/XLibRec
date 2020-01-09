@@ -1,0 +1,66 @@
+INSERT INTO Posts VALUES('150239','1','2018-03-25T05:05:25.403','2','197','<p>Tengo el siguiente contenido en un archivo JSON</p>
+
+<pre><code>{
+  "password": "xxx\\\xxx"
+}
+</code></pre>
+
+<p>y lo estoy cargando desde Python con el siguiente código</p>
+
+<pre><code>data = json.loads(open(file_path).read())
+</code></pre>
+
+<p>cuando imprimo el resultado lo que obtengo es esto</p>
+
+<pre><code>&gt;&gt;&gt; print(json.dumps(data))
+{password: xxx\\\xxx}
+</code></pre>
+
+<p>no esta escapando el carácter <code>\</code>, ¿alguna solución?</p>
+','74732','2018-03-26T08:57:09.037','Problema al escapar el carácter \','<python><json><python-3.x>','1','8','0','/home/sr-p2irc-big14/Desktop/stackexchange/es_stackoverflow_com_7z','150260')
+
+INSERT INTO Posts VALUES('290375','1','2018-04-11T00:49:50.683','0','519','<p>Eu tenho um programa que cria para seu funcionamento outro programa no computador do usuário. Em um trecho, eu defino o diretório a que o novo programa será destinado como</p>
+
+<pre><code> diret = "C:\\Users\\" + d_user
+</code></pre>
+
+<p>em que d_user é o resto do diretório. Porém ao ser criado e executado, o string é convertido para </p>
+
+<pre><code>C:\Users\ 
+</code></pre>
+
+<p>com uma barra apenas, o que suscita </p>
+
+<pre><code>SyntaxError: EOL while scanning string literal 
+</code></pre>
+
+<p>pois a string não é fechada no segundo []. </p>
+
+<p>Como posso prevenir que isso ocorra a fim de que meu código seja executado plenamente?</p>
+
+<p><strong>EDIT:</strong></p>
+
+<p>O código dentro do código principal, que será criado, está disponível em <a href="https://ideone.com/KTAQxf" rel="nofollow noreferrer">https://ideone.com/KTAQxf</a> das linhas 4 a 24; as demais são apenas contexto do código principal. O erro acontece com a linha 10.</p>
+','93774','2018-05-02T02:58:46.367','Python string corrompida com caractere \','<python><string><python-3.x><diretório><concatenação-de-string>','1','2','0','/home/sr-p2irc-big14/Desktop/stackexchange/pt_stackoverflow_com_7z','290385')
+
+INSERT INTO Posts VALUES('334609','1','2018-10-05T18:06:14.343','0','55','<blockquote>
+  <p>Faça um programa que exibe o diretório atual (o qual você está salvando os seus programas), a unidade de disco utilizada, o nome de usuário do sistema e a pasta atual. Considere o exemplo abaixo. Dica utilize a função <code>split</code>.</p>
+</blockquote>
+
+<pre class="lang-none prettyprint-override"><code>Diretorio Atual = C:\Users\monte\PycharmProjects\Aula3
+Unidade do Disco = C:
+Nome do Usuario = monte
+Pasta Atual = Aula3
+</code></pre>
+
+<p>Tentei usar o <code>split</code> e o programa não aceitou</p>
+
+<pre><code>import os
+os.getcwd()
+os.getlogin()
+lista = []
+print(os.getcwd())
+print(os.getlogin())
+lista.append(os.getcwd()) #variável colocada na lista
+</code></pre>
+','126115','2018-10-09T17:15:37.113','Separar o resultado que aparece em os.getcwd() para conseguir exibir somente o c:\','<python>','3','6','0','/home/sr-p2irc-big14/Desktop/stackexchange/pt_stackoverflow_com_7z','334671')

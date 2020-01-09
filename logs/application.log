@@ -1,0 +1,924 @@
+2020-01-05 19:00:33,598 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-01-05 19:00:36,316 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 4
+
+2020-01-05 19:00:36,427 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 4
+
+2020-01-05 19:00:36,500 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2020-01-05 19:00:36,500 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [8]; Memory: [3.5GB];
+
+2020-01-05 19:00:36,500 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-01-05 19:00:36,581 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+Starting vocabulary building...
+
+2020-01-05 19:00:37,688 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [100000]; Current vocabulary size: [13119]; Sequences/sec: 90415.91; Words/sec: 329914.10;
+
+2020-01-05 19:00:38,204 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [200000]; Current vocabulary size: [16577]; Sequences/sec: 194174.76; Words/sec: 709155.34;
+
+2020-01-05 19:00:38,761 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [300000]; Current vocabulary size: [18824]; Sequences/sec: 179533.21; Words/sec: 658615.80;
+
+2020-01-05 19:00:39,300 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [400000]; Current vocabulary size: [20597]; Sequences/sec: 185528.76; Words/sec: 682328.39;
+
+2020-01-05 19:00:39,770 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [500000]; Current vocabulary size: [21571]; Sequences/sec: 212314.23; Words/sec: 779193.21;
+
+2020-01-05 19:00:40,306 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [600000]; Current vocabulary size: [22519]; Sequences/sec: 186567.16; Words/sec: 686326.49;
+
+2020-01-05 19:00:40,912 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [700000]; Current vocabulary size: [23293]; Sequences/sec: 165289.26; Words/sec: 610381.82;
+
+2020-01-05 19:00:41,816 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [800000]; Current vocabulary size: [23959]; Sequences/sec: 110619.47; Words/sec: 410006.64;
+
+2020-01-05 19:00:42,671 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [900000]; Current vocabulary size: [24591]; Sequences/sec: 116822.43; Words/sec: 432665.89;
+
+2020-01-05 19:00:43,249 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1000000]; Current vocabulary size: [25190]; Sequences/sec: 173310.23; Words/sec: 643691.51;
+
+2020-01-05 19:00:43,813 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1100000]; Current vocabulary size: [25722]; Sequences/sec: 176991.15; Words/sec: 658576.99;
+
+2020-01-05 19:00:44,381 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1200000]; Current vocabulary size: [26197]; Sequences/sec: 176056.34; Words/sec: 651669.01;
+
+2020-01-05 19:00:44,938 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1300000]; Current vocabulary size: [26618]; Sequences/sec: 179533.21; Words/sec: 666149.01;
+
+2020-01-05 19:00:45,485 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1400000]; Current vocabulary size: [26960]; Sequences/sec: 182815.36; Words/sec: 678641.68;
+
+2020-01-05 19:00:46,001 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1500000]; Current vocabulary size: [27321]; Sequences/sec: 193798.45; Words/sec: 721500.00;
+
+2020-01-05 19:00:46,469 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1600000]; Current vocabulary size: [27678]; Sequences/sec: 214132.76; Words/sec: 795867.24;
+
+2020-01-05 19:00:47,171 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1700000]; Current vocabulary size: [28034]; Sequences/sec: 142247.51; Words/sec: 528638.69;
+
+2020-01-05 19:00:47,772 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1800000]; Current vocabulary size: [28406]; Sequences/sec: 166389.35; Words/sec: 618775.37;
+
+2020-01-05 19:00:48,360 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [1900000]; Current vocabulary size: [28782]; Sequences/sec: 170068.03; Words/sec: 632760.20;
+
+2020-01-05 19:00:48,848 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2000000]; Current vocabulary size: [29124]; Sequences/sec: 204918.03; Words/sec: 762944.67;
+
+2020-01-05 19:00:49,455 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2100000]; Current vocabulary size: [29450]; Sequences/sec: 164744.65; Words/sec: 613818.78;
+
+2020-01-05 19:00:50,049 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2200000]; Current vocabulary size: [29775]; Sequences/sec: 168350.17; Words/sec: 627153.20;
+
+2020-01-05 19:00:50,655 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2300000]; Current vocabulary size: [30103]; Sequences/sec: 165016.50; Words/sec: 614288.78;
+
+2020-01-05 19:00:51,253 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2400000]; Current vocabulary size: [30405]; Sequences/sec: 167504.19; Words/sec: 624204.36;
+
+2020-01-05 19:00:51,808 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2500000]; Current vocabulary size: [30767]; Sequences/sec: 179856.12; Words/sec: 669805.76;
+
+2020-01-05 19:00:52,384 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2600000]; Current vocabulary size: [31098]; Sequences/sec: 173611.11; Words/sec: 645741.32;
+
+2020-01-05 19:00:52,968 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2700000]; Current vocabulary size: [31418]; Sequences/sec: 171232.88; Words/sec: 637539.38;
+
+2020-01-05 19:00:53,546 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2800000]; Current vocabulary size: [31747]; Sequences/sec: 173310.23; Words/sec: 646811.09;
+
+2020-01-05 19:00:54,089 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [2900000]; Current vocabulary size: [32037]; Sequences/sec: 183823.53; Words/sec: 683875.00;
+
+2020-01-05 19:00:54,692 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3000000]; Current vocabulary size: [32360]; Sequences/sec: 165837.48; Words/sec: 616114.43;
+
+2020-01-05 19:00:55,291 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3100000]; Current vocabulary size: [32662]; Sequences/sec: 166944.91; Words/sec: 622056.76;
+
+2020-01-05 19:00:55,872 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3200000]; Current vocabulary size: [32938]; Sequences/sec: 172117.04; Words/sec: 640024.10;
+
+2020-01-05 19:00:56,786 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3300000]; Current vocabulary size: [33199]; Sequences/sec: 109409.19; Words/sec: 411143.33;
+
+2020-01-05 19:00:57,440 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3400000]; Current vocabulary size: [33495]; Sequences/sec: 152905.20; Words/sec: 575558.10;
+
+2020-01-05 19:00:58,000 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3500000]; Current vocabulary size: [33767]; Sequences/sec: 178571.43; Words/sec: 671233.93;
+
+2020-01-05 19:00:58,564 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3600000]; Current vocabulary size: [34024]; Sequences/sec: 177304.96; Words/sec: 667436.17;
+
+2020-01-05 19:00:59,110 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3700000]; Current vocabulary size: [34315]; Sequences/sec: 183150.18; Words/sec: 689776.56;
+
+2020-01-05 19:00:59,674 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3800000]; Current vocabulary size: [34611]; Sequences/sec: 177304.96; Words/sec: 667517.73;
+
+2020-01-05 19:01:00,216 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [3900000]; Current vocabulary size: [34891]; Sequences/sec: 184501.85; Words/sec: 693730.63;
+
+2020-01-05 19:01:00,736 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4000000]; Current vocabulary size: [35156]; Sequences/sec: 192307.69; Words/sec: 723178.85;
+
+2020-01-05 19:01:01,307 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4100000]; Current vocabulary size: [35421]; Sequences/sec: 175131.35; Words/sec: 657345.01;
+
+2020-01-05 19:01:01,806 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4200000]; Current vocabulary size: [35692]; Sequences/sec: 200803.21; Words/sec: 753345.38;
+
+2020-01-05 19:01:02,356 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4300000]; Current vocabulary size: [35980]; Sequences/sec: 181488.20; Words/sec: 680845.74;
+
+2020-01-05 19:01:02,862 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4400000]; Current vocabulary size: [36262]; Sequences/sec: 197628.46; Words/sec: 742041.50;
+
+2020-01-05 19:01:03,343 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4500000]; Current vocabulary size: [36539]; Sequences/sec: 207900.21; Words/sec: 783051.98;
+
+2020-01-05 19:01:03,898 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4600000]; Current vocabulary size: [36844]; Sequences/sec: 180505.42; Words/sec: 678588.45;
+
+2020-01-05 19:01:04,422 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4700000]; Current vocabulary size: [37129]; Sequences/sec: 190839.69; Words/sec: 717473.28;
+
+2020-01-05 19:01:05,007 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4800000]; Current vocabulary size: [37428]; Sequences/sec: 170648.46; Words/sec: 641556.31;
+
+2020-01-05 19:01:05,523 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [4900000]; Current vocabulary size: [37692]; Sequences/sec: 193798.45; Words/sec: 728292.64;
+
+2020-01-05 19:01:06,062 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5000000]; Current vocabulary size: [37985]; Sequences/sec: 185528.76; Words/sec: 697773.65;
+
+2020-01-05 19:01:06,679 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5100000]; Current vocabulary size: [38286]; Sequences/sec: 162074.55; Words/sec: 609012.97;
+
+2020-01-05 19:01:07,377 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5200000]; Current vocabulary size: [38543]; Sequences/sec: 143266.48; Words/sec: 539885.39;
+
+2020-01-05 19:01:08,450 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5300000]; Current vocabulary size: [38799]; Sequences/sec: 93283.58; Words/sec: 351935.63;
+
+2020-01-05 19:01:09,074 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5400000]; Current vocabulary size: [39073]; Sequences/sec: 160000.00; Words/sec: 602192.00;
+
+2020-01-05 19:01:09,555 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5500000]; Current vocabulary size: [39363]; Sequences/sec: 208333.33; Words/sec: 784722.92;
+
+2020-01-05 19:01:10,061 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5600000]; Current vocabulary size: [39622]; Sequences/sec: 197238.66; Words/sec: 742349.11;
+
+2020-01-05 19:01:10,688 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5700000]; Current vocabulary size: [39865]; Sequences/sec: 159489.63; Words/sec: 600548.64;
+
+2020-01-05 19:01:11,169 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5800000]; Current vocabulary size: [40119]; Sequences/sec: 208333.33; Words/sec: 786220.83;
+
+2020-01-05 19:01:11,653 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [5900000]; Current vocabulary size: [40344]; Sequences/sec: 206611.57; Words/sec: 778900.83;
+
+2020-01-05 19:01:12,147 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6000000]; Current vocabulary size: [40608]; Sequences/sec: 202020.20; Words/sec: 761642.42;
+
+2020-01-05 19:01:12,698 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6100000]; Current vocabulary size: [40836]; Sequences/sec: 181488.20; Words/sec: 683546.28;
+
+2020-01-05 19:01:13,274 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6200000]; Current vocabulary size: [41066]; Sequences/sec: 173611.11; Words/sec: 654411.46;
+
+2020-01-05 19:01:13,808 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6300000]; Current vocabulary size: [41337]; Sequences/sec: 187265.92; Words/sec: 704533.71;
+
+2020-01-05 19:01:14,460 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6400000]; Current vocabulary size: [41590]; Sequences/sec: 153609.83; Words/sec: 577494.62;
+
+2020-01-05 19:01:14,936 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6500000]; Current vocabulary size: [41827]; Sequences/sec: 209643.61; Words/sec: 788928.72;
+
+2020-01-05 19:01:15,433 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6600000]; Current vocabulary size: [42088]; Sequences/sec: 201207.24; Words/sec: 757233.40;
+
+2020-01-05 19:01:15,961 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6700000]; Current vocabulary size: [42333]; Sequences/sec: 189393.94; Words/sec: 712464.02;
+
+2020-01-05 19:01:16,551 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6800000]; Current vocabulary size: [42581]; Sequences/sec: 169491.53; Words/sec: 637452.54;
+
+2020-01-05 19:01:17,106 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [6900000]; Current vocabulary size: [42856]; Sequences/sec: 180180.18; Words/sec: 678171.17;
+
+2020-01-05 19:01:17,676 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7000000]; Current vocabulary size: [43084]; Sequences/sec: 175438.60; Words/sec: 659847.37;
+
+2020-01-05 19:01:18,263 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7100000]; Current vocabulary size: [43353]; Sequences/sec: 170357.75; Words/sec: 640224.87;
+
+2020-01-05 19:01:18,836 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7200000]; Current vocabulary size: [43608]; Sequences/sec: 174825.17; Words/sec: 658648.60;
+
+2020-01-05 19:01:19,329 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7300000]; Current vocabulary size: [43811]; Sequences/sec: 202429.15; Words/sec: 763093.12;
+
+2020-01-05 19:01:19,911 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7400000]; Current vocabulary size: [44029]; Sequences/sec: 171821.31; Words/sec: 648056.70;
+
+2020-01-05 19:01:20,500 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7500000]; Current vocabulary size: [44285]; Sequences/sec: 169779.29; Words/sec: 640298.81;
+
+2020-01-05 19:01:21,119 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7600000]; Current vocabulary size: [44527]; Sequences/sec: 161550.89; Words/sec: 609289.18;
+
+2020-01-05 19:01:21,760 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7700000]; Current vocabulary size: [44741]; Sequences/sec: 156006.24; Words/sec: 588266.77;
+
+2020-01-05 19:01:22,335 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7800000]; Current vocabulary size: [44959]; Sequences/sec: 173913.04; Words/sec: 655532.17;
+
+2020-01-05 19:01:22,864 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [7900000]; Current vocabulary size: [45167]; Sequences/sec: 189035.92; Words/sec: 713166.35;
+
+2020-01-05 19:01:23,352 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8000000]; Current vocabulary size: [45404]; Sequences/sec: 204918.03; Words/sec: 773479.51;
+
+2020-01-05 19:01:23,860 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8100000]; Current vocabulary size: [45623]; Sequences/sec: 196850.39; Words/sec: 741013.78;
+
+2020-01-05 19:01:24,360 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8200000]; Current vocabulary size: [45841]; Sequences/sec: 200000.00; Words/sec: 753376.00;
+
+2020-01-05 19:01:24,857 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8300000]; Current vocabulary size: [46054]; Sequences/sec: 201207.24; Words/sec: 757627.77;
+
+2020-01-05 19:01:25,416 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8400000]; Current vocabulary size: [46252]; Sequences/sec: 178890.88; Words/sec: 673862.25;
+
+2020-01-05 19:01:25,956 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8500000]; Current vocabulary size: [46447]; Sequences/sec: 185528.76; Words/sec: 699209.65;
+
+2020-01-05 19:01:26,504 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8600000]; Current vocabulary size: [46687]; Sequences/sec: 182481.75; Words/sec: 688750.00;
+
+2020-01-05 19:01:27,114 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8700000]; Current vocabulary size: [46893]; Sequences/sec: 163934.43; Words/sec: 618385.25;
+
+2020-01-05 19:01:27,630 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8800000]; Current vocabulary size: [47110]; Sequences/sec: 193423.60; Words/sec: 729454.55;
+
+2020-01-05 19:01:28,133 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [8900000]; Current vocabulary size: [47329]; Sequences/sec: 198807.16; Words/sec: 749314.12;
+
+2020-01-05 19:01:28,631 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9000000]; Current vocabulary size: [47542]; Sequences/sec: 200803.21; Words/sec: 756598.39;
+
+2020-01-05 19:01:29,152 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9100000]; Current vocabulary size: [47736]; Sequences/sec: 191938.58; Words/sec: 723547.02;
+
+2020-01-05 19:01:29,682 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9200000]; Current vocabulary size: [47919]; Sequences/sec: 188679.25; Words/sec: 711150.94;
+
+2020-01-05 19:01:30,206 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9300000]; Current vocabulary size: [48110]; Sequences/sec: 191204.59; Words/sec: 720923.52;
+
+2020-01-05 19:01:30,792 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9400000]; Current vocabulary size: [48326]; Sequences/sec: 170357.75; Words/sec: 642994.89;
+
+2020-01-05 19:01:31,357 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9500000]; Current vocabulary size: [48542]; Sequences/sec: 177304.96; Words/sec: 667590.43;
+
+2020-01-05 19:01:31,911 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9600000]; Current vocabulary size: [48792]; Sequences/sec: 180180.18; Words/sec: 676349.55;
+
+2020-01-05 19:01:32,406 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9700000]; Current vocabulary size: [49004]; Sequences/sec: 202429.15; Words/sec: 760099.19;
+
+2020-01-05 19:01:32,933 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9800000]; Current vocabulary size: [49229]; Sequences/sec: 189393.94; Words/sec: 710435.61;
+
+2020-01-05 19:01:33,491 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [9900000]; Current vocabulary size: [49455]; Sequences/sec: 179211.47; Words/sec: 671141.58;
+
+2020-01-05 19:01:34,018 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [10000000]; Current vocabulary size: [49682]; Sequences/sec: 189753.32; Words/sec: 712373.81;
+
+2020-01-05 19:01:34,601 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [10100000]; Current vocabulary size: [49892]; Sequences/sec: 171526.59; Words/sec: 644620.93;
+
+2020-01-05 19:01:35,221 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [10200000]; Current vocabulary size: [50097]; Sequences/sec: 161290.32; Words/sec: 605687.10;
+
+2020-01-05 19:01:36,070 - [INFO] - from org.deeplearning4j.models.word2vec.wordstore.VocabConstructor in main
+                
+Sequences checked: [10236479], Current vocabulary size: [42550]; Sequences/sec: [172079.26];
+
+2020-01-05 19:01:36,094 - [INFO] - from org.deeplearning4j.models.embeddings.loader.WordVectorSerializer in main
+                
+Projected memory use for model: [32.46 MB]
+
+2020-01-05 19:01:36,263 - [INFO] - from org.deeplearning4j.models.embeddings.inmemory.InMemoryLookupTable in main
+                
+Initializing syn1...
+
+2020-01-05 19:01:36,270 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+Building learning algorithms:
+
+2020-01-05 19:01:36,270 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+          building ElementsLearningAlgorithm: [SkipGram]
+
+2020-01-05 19:01:36,281 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+Starting learning process...
+
+2020-01-05 19:01:38,570 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [364462];  Lines vectorized so far: [100000]; Seq/sec: [43706.29]; Words/sec: [159292.83]; learningRate: [0.024762304484369148]
+
+2020-01-05 19:01:40,448 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [729408];  Lines vectorized so far: [200000]; Seq/sec: [53248.14]; Words/sec: [175085.93]; learningRate: [0.024524292005731214]
+
+2020-01-05 19:01:42,241 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [1096016];  Lines vectorized so far: [300000]; Seq/sec: [55803.57]; Words/sec: [183957.03]; learningRate: [0.024285194287497033]
+
+2020-01-05 19:01:44,041 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [1463535];  Lines vectorized so far: [400000]; Seq/sec: [55555.56]; Words/sec: [188648.49]; learningRate: [0.024045503731045907]
+
+2020-01-05 19:01:45,796 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [1830382];  Lines vectorized so far: [500000]; Seq/sec: [56947.61]; Words/sec: [192388.27]; learningRate: [0.023806250140057217]
+
+2020-01-05 19:01:47,517 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [2198118];  Lines vectorized so far: [600000]; Seq/sec: [58139.53]; Words/sec: [195666.55]; learningRate: [0.023566418058971243]
+
+2020-01-05 19:01:49,224 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [2567301];  Lines vectorized so far: [700000]; Seq/sec: [58548.01]; Words/sec: [198369.73]; learningRate: [0.023325641610736608]
+
+2020-01-05 19:01:50,986 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [2937847];  Lines vectorized so far: [800000]; Seq/sec: [56753.69]; Words/sec: [199799.17]; learningRate: [0.023083975579082937]
+
+2020-01-05 19:01:52,713 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [3308088];  Lines vectorized so far: [900000]; Seq/sec: [57903.88]; Words/sec: [201332.12]; learningRate: [0.022842509116730015]
+
+2020-01-05 19:01:54,511 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [3679394];  Lines vectorized so far: [1000000]; Seq/sec: [55617.35]; Words/sec: [201842.89]; learningRate: [0.022600348074948005]
+
+2020-01-05 19:01:56,253 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [4051382];  Lines vectorized so far: [1100000]; Seq/sec: [57405.28]; Words/sec: [202863.25]; learningRate: [0.022357743545830987]
+
+2020-01-05 19:01:57,974 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [4421432];  Lines vectorized so far: [1200000]; Seq/sec: [58105.75]; Words/sec: [203827.77]; learningRate: [0.022116401651244223]
+
+2020-01-05 19:01:59,799 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [4792380];  Lines vectorized so far: [1300000]; Seq/sec: [54794.52]; Words/sec: [203783.65]; learningRate: [0.021874473440313087]
+
+2020-01-05 19:02:01,553 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [5163517];  Lines vectorized so far: [1400000]; Seq/sec: [57012.54]; Words/sec: [204325.79]; learningRate: [0.021632421965990314]
+
+2020-01-05 19:02:03,339 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [5535729];  Lines vectorized so far: [1500000]; Seq/sec: [55991.04]; Words/sec: [204595.08]; learningRate: [0.021389670042553134]
+
+2020-01-05 19:02:05,114 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [5907327];  Lines vectorized so far: [1600000]; Seq/sec: [56338.03]; Words/sec: [204887.87]; learningRate: [0.02114731921427923]
+
+2020-01-05 19:02:06,952 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [6278894];  Lines vectorized so far: [1700000]; Seq/sec: [54406.96]; Words/sec: [204724.29]; learningRate: [0.02090498729943579]
+
+2020-01-05 19:02:08,732 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [6650698];  Lines vectorized so far: [1800000]; Seq/sec: [56179.78]; Words/sec: [204952.17]; learningRate: [0.02066250146839961]
+
+2020-01-05 19:02:10,572 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [7022679];  Lines vectorized so far: [1900000]; Seq/sec: [54347.83]; Words/sec: [204802.54]; learningRate: [0.020419900852406137]
+
+2020-01-05 19:02:12,358 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [7394908];  Lines vectorized so far: [2000000]; Seq/sec: [56022.41]; Words/sec: [204987.05]; learningRate: [0.020177137841785583]
+
+2020-01-05 19:02:14,137 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [7767429];  Lines vectorized so far: [2100000]; Seq/sec: [56179.78]; Words/sec: [205188.98]; learningRate: [0.01993418374029862]
+
+2020-01-05 19:02:15,975 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [8139883];  Lines vectorized so far: [2200000]; Seq/sec: [54406.96]; Words/sec: [205070.99]; learningRate: [0.019691273987545155]
+
+2020-01-05 19:02:17,769 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [8512058];  Lines vectorized so far: [2300000]; Seq/sec: [55741.36]; Words/sec: [205174.10]; learningRate: [0.019448546847223754]
+
+2020-01-05 19:02:19,640 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [8884614];  Lines vectorized so far: [2400000]; Seq/sec: [53447.35]; Words/sec: [204912.91]; learningRate: [0.01920556991918278]
+
+2020-01-05 19:02:21,397 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [9256918];  Lines vectorized so far: [2500000]; Seq/sec: [56947.61]; Words/sec: [205189.48]; learningRate: [0.018962757994517923]
+
+2020-01-05 19:02:23,196 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [9628764];  Lines vectorized so far: [2600000]; Seq/sec: [55586.44]; Words/sec: [205247.24]; learningRate: [0.018720245423804193]
+
+2020-01-05 19:02:25,012 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [10000991];  Lines vectorized so far: [2700000]; Seq/sec: [55035.77]; Words/sec: [205232.73]; learningRate: [0.01847748371755815]
+
+2020-01-05 19:02:26,779 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [10374097];  Lines vectorized so far: [2800000]; Seq/sec: [56593.10]; Words/sec: [205439.87]; learningRate: [0.018234148738712888]
+
+2020-01-05 19:02:28,583 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [10746040];  Lines vectorized so far: [2900000]; Seq/sec: [55432.37]; Words/sec: [205465.29]; learningRate: [0.017991572905835196]
+
+2020-01-05 19:02:30,385 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [11117462];  Lines vectorized so far: [3000000]; Seq/sec: [55493.90]; Words/sec: [205486.98]; learningRate: [0.01774933621033133]
+
+2020-01-05 19:02:32,203 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [11489966];  Lines vectorized so far: [3100000]; Seq/sec: [55005.50]; Words/sec: [205467.82]; learningRate: [0.01750639319602774]
+
+2020-01-05 19:02:33,980 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [11861735];  Lines vectorized so far: [3200000]; Seq/sec: [56274.62]; Words/sec: [205583.12]; learningRate: [0.017263930191545575]
+
+2020-01-05 19:02:35,790 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [12237435];  Lines vectorized so far: [3300000]; Seq/sec: [55248.62]; Words/sec: [205643.53]; learningRate: [0.017018904091141967]
+
+2020-01-05 19:02:37,640 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [12613745];  Lines vectorized so far: [3400000]; Seq/sec: [54054.05]; Words/sec: [205576.21]; learningRate: [0.016773478199949603]
+
+2020-01-05 19:02:39,410 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [12989532];  Lines vectorized so far: [3500000]; Seq/sec: [56497.18]; Words/sec: [205764.99]; learningRate: [0.01652839535925461]
+
+2020-01-05 19:02:41,225 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [13365859];  Lines vectorized so far: [3600000]; Seq/sec: [55096.42]; Words/sec: [205809.08]; learningRate: [0.016282960337440644]
+
+2020-01-05 19:02:42,999 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [13742374];  Lines vectorized so far: [3700000]; Seq/sec: [56401.58]; Words/sec: [205983.18]; learningRate: [0.016037402052235035]
+
+2020-01-05 19:02:44,820 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [14118743];  Lines vectorized so far: [3800000]; Seq/sec: [54884.74]; Words/sec: [205998.76]; learningRate: [0.015791938334181743]
+
+2020-01-05 19:02:46,638 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [14494629];  Lines vectorized so far: [3900000]; Seq/sec: [55005.50]; Words/sec: [206018.38]; learningRate: [0.015546790274761014]
+
+2020-01-05 19:02:48,417 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [14870574];  Lines vectorized so far: [4000000]; Seq/sec: [56211.35]; Words/sec: [206149.22]; learningRate: [0.015301604388479356]
+
+2020-01-05 19:02:50,229 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [15245810];  Lines vectorized so far: [4100000]; Seq/sec: [55187.64]; Words/sec: [206172.12]; learningRate: [0.015056879598588658]
+
+2020-01-05 19:02:52,034 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [15620846];  Lines vectorized so far: [4200000]; Seq/sec: [55401.66]; Words/sec: [206210.34]; learningRate: [0.014812286550523943]
+
+2020-01-05 19:02:53,838 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [15995870];  Lines vectorized so far: [4300000]; Seq/sec: [55432.37]; Words/sec: [206249.29]; learningRate: [0.014567699372144544]
+
+2020-01-05 19:02:55,696 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [16371224];  Lines vectorized so far: [4400000]; Seq/sec: [53821.31]; Words/sec: [206150.35]; learningRate: [0.014322899580719249]
+
+2020-01-05 19:02:57,549 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [16747760];  Lines vectorized so far: [4500000]; Seq/sec: [53966.54]; Words/sec: [206083.16]; learningRate: [0.014077327599581236]
+
+2020-01-05 19:02:59,394 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [17123574];  Lines vectorized so far: [4600000]; Seq/sec: [54200.54]; Words/sec: [206030.10]; learningRate: [0.013832225193268523]
+
+2020-01-05 19:03:01,240 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [17499419];  Lines vectorized so far: [4700000]; Seq/sec: [54171.18]; Words/sec: [205977.29]; learningRate: [0.013587104525712601]
+
+2020-01-05 19:03:03,035 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [17875233];  Lines vectorized so far: [4800000]; Seq/sec: [55741.36]; Words/sec: [206049.81]; learningRate: [0.013342002771587145]
+
+2020-01-05 19:03:04,942 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [18250903];  Lines vectorized so far: [4900000]; Seq/sec: [52438.38]; Words/sec: [205855.05]; learningRate: [0.013096996236801262]
+
+2020-01-05 19:03:06,701 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [18626867];  Lines vectorized so far: [5000000]; Seq/sec: [56818.18]; Words/sec: [206006.12]; learningRate: [0.012851796654587203]
+
+2020-01-05 19:03:08,516 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [19002495];  Lines vectorized so far: [5100000]; Seq/sec: [55126.79]; Words/sec: [206027.07]; learningRate: [0.012606816859478873]
+
+2020-01-05 19:03:10,361 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [19379228];  Lines vectorized so far: [5200000]; Seq/sec: [54171.18]; Words/sec: [205988.88]; learningRate: [0.012361117049638416]
+
+2020-01-05 19:03:12,236 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [19756364];  Lines vectorized so far: [5300000]; Seq/sec: [53333.33]; Words/sec: [205894.12]; learningRate: [0.012115153756145986]
+
+2020-01-05 19:03:14,145 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [20132591];  Lines vectorized so far: [5400000]; Seq/sec: [52383.45]; Words/sec: [205722.19]; learningRate: [0.011869783300870497]
+
+2020-01-05 19:03:16,007 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [20509138];  Lines vectorized so far: [5500000]; Seq/sec: [53705.69]; Words/sec: [205656.94]; learningRate: [0.011624203493485395]
+
+2020-01-05 19:03:17,840 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [20885364];  Lines vectorized so far: [5600000]; Seq/sec: [54555.37]; Words/sec: [205649.62]; learningRate: [0.011378834994771676]
+
+2020-01-05 19:03:19,688 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [21261791];  Lines vectorized so far: [5700000]; Seq/sec: [54112.55]; Words/sec: [205614.67]; learningRate: [0.011133333449857459]
+
+2020-01-05 19:03:21,574 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [21639048];  Lines vectorized so far: [5800000]; Seq/sec: [53022.27]; Words/sec: [205514.64]; learningRate: [0.010887291241706884]
+
+2020-01-05 19:03:23,377 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [22015914];  Lines vectorized so far: [5900000]; Seq/sec: [55463.12]; Words/sec: [205573.69]; learningRate: [0.010641503386586685]
+
+2020-01-05 19:03:25,177 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [22392770];  Lines vectorized so far: [6000000]; Seq/sec: [55555.56]; Words/sec: [205636.35]; learningRate: [0.010395722705526314]
+
+2020-01-05 19:03:27,076 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [22769261];  Lines vectorized so far: [6100000]; Seq/sec: [52659.29]; Words/sec: [205509.87]; learningRate: [0.010150181377189397]
+
+2020-01-05 19:03:28,991 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [23146060];  Lines vectorized so far: [6200000]; Seq/sec: [52219.32]; Words/sec: [205361.24]; learningRate: [0.009904436566428183]
+
+2020-01-05 19:03:30,805 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [23522110];  Lines vectorized so far: [6300000]; Seq/sec: [55126.79]; Words/sec: [205392.02]; learningRate: [0.009659181548297244]
+
+2020-01-05 19:03:32,691 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [23897921];  Lines vectorized so far: [6400000]; Seq/sec: [53022.27]; Words/sec: [205292.73]; learningRate: [0.009414083707295332]
+
+2020-01-05 19:03:34,576 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [24274093];  Lines vectorized so far: [6500000]; Seq/sec: [53050.40]; Words/sec: [205201.39]; learningRate: [0.009168747817944484]
+
+2020-01-05 19:03:36,449 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [24650282];  Lines vectorized so far: [6600000]; Seq/sec: [53390.28]; Words/sec: [205133.54]; learningRate: [0.008923402797972033]
+
+2020-01-05 19:03:38,296 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [25026319];  Lines vectorized so far: [6700000]; Seq/sec: [54141.85]; Words/sec: [205110.23]; learningRate: [0.008678155606088185]
+
+2020-01-05 19:03:40,149 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [25402259];  Lines vectorized so far: [6800000]; Seq/sec: [53966.54]; Words/sec: [205076.89]; learningRate: [0.008432972328555558]
+
+2020-01-05 19:03:41,960 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [25778463];  Lines vectorized so far: [6900000]; Seq/sec: [55218.11]; Words/sec: [205115.16]; learningRate: [0.008187617525774243]
+
+2020-01-05 19:03:43,754 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [26154388];  Lines vectorized so far: [7000000]; Seq/sec: [55741.36]; Words/sec: [205177.51]; learningRate: [0.00794244403105048]
+
+2020-01-05 19:03:45,578 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [26530052];  Lines vectorized so far: [7100000]; Seq/sec: [54824.56]; Words/sec: [205188.50]; learningRate: [0.007697440757200885]
+
+2020-01-05 19:03:47,393 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [26906623];  Lines vectorized so far: [7200000]; Seq/sec: [55096.42]; Words/sec: [205220.18]; learningRate: [0.007451845297321605]
+
+2020-01-05 19:03:49,196 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [27283439];  Lines vectorized so far: [7300000]; Seq/sec: [55493.90]; Words/sec: [205272.92]; learningRate: [0.007206090703751531]
+
+2020-01-05 19:03:51,006 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [27660434];  Lines vectorized so far: [7400000]; Seq/sec: [55218.11]; Words/sec: [205311.85]; learningRate: [0.006960219368662388]
+
+2020-01-05 19:03:52,818 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [28037398];  Lines vectorized so far: [7500000]; Seq/sec: [55187.64]; Words/sec: [205348.03]; learningRate: [0.006714368251378222]
+
+2020-01-05 19:03:54,650 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [28414385];  Lines vectorized so far: [7600000]; Seq/sec: [54585.15]; Words/sec: [205353.73]; learningRate: [0.006468502785974395]
+
+2020-01-05 19:03:56,528 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [28791313];  Lines vectorized so far: [7700000]; Seq/sec: [53248.14]; Words/sec: [205291.51]; learningRate: [0.006222675799618752]
+
+2020-01-05 19:03:58,318 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [29168072];  Lines vectorized so far: [7800000]; Seq/sec: [55865.92]; Words/sec: [205356.90]; learningRate: [0.005976957076347833]
+
+2020-01-05 19:04:00,120 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [29545191];  Lines vectorized so far: [7900000]; Seq/sec: [55493.90]; Words/sec: [205406.02]; learningRate: [0.005731005522226032]
+
+2020-01-05 19:04:01,928 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [29922470];  Lines vectorized so far: [8000000]; Seq/sec: [55340.34]; Words/sec: [205447.97]; learningRate: [0.005484948313768542]
+
+2020-01-05 19:04:03,798 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [30298708];  Lines vectorized so far: [8100000]; Seq/sec: [53447.35]; Words/sec: [205392.69]; learningRate: [0.005239571988807737]
+
+2020-01-05 19:04:05,588 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [30675197];  Lines vectorized so far: [8200000]; Seq/sec: [55865.92]; Words/sec: [205451.87]; learningRate: [0.004994030008283562]
+
+2020-01-05 19:04:07,536 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [31051534];  Lines vectorized so far: [8300000]; Seq/sec: [51361.07]; Words/sec: [205295.33]; learningRate: [0.00474858846459702]
+
+2020-01-05 19:04:09,385 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [31428017];  Lines vectorized so far: [8400000]; Seq/sec: [54083.29]; Words/sec: [205275.03]; learningRate: [0.00450304974500913]
+
+2020-01-05 19:04:11,230 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [31804697];  Lines vectorized so far: [8500000]; Seq/sec: [54171.18]; Words/sec: [205260.46]; learningRate: [0.004257384501093315]
+
+2020-01-05 19:04:13,111 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [32181910];  Lines vectorized so far: [8600000]; Seq/sec: [53163.21]; Words/sec: [205203.82]; learningRate: [0.004011370989182065]
+
+2020-01-05 19:04:15,003 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [32558916];  Lines vectorized so far: [8700000]; Seq/sec: [52854.12]; Words/sec: [205133.01]; learningRate: [0.0037654931322203492]
+
+2020-01-05 19:04:16,913 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [32935825];  Lines vectorized so far: [8800000]; Seq/sec: [52356.02]; Words/sec: [205040.28]; learningRate: [0.0035196772330480827]
+
+2020-01-05 19:04:18,785 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [33312466];  Lines vectorized so far: [8900000]; Seq/sec: [53418.80]; Words/sec: [204996.01]; learningRate: [0.003274036120060786]
+
+2020-01-05 19:04:20,743 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [33688982];  Lines vectorized so far: [9000000]; Seq/sec: [51072.52]; Words/sec: [204844.81]; learningRate: [0.0030284778348551784]
+
+2020-01-05 19:04:22,609 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [34065696];  Lines vectorized so far: [9100000]; Seq/sec: [53619.30]; Words/sec: [204812.81]; learningRate: [0.002782789112198095]
+
+2020-01-05 19:04:24,476 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [34442332];  Lines vectorized so far: [9200000]; Seq/sec: [53533.19]; Words/sec: [204777.41]; learningRate: [0.0025371519123343457]
+
+2020-01-05 19:04:26,343 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [34819066];  Lines vectorized so far: [9300000]; Seq/sec: [53590.57]; Words/sec: [204745.77]; learningRate: [0.002291451450306631]
+
+2020-01-05 19:04:28,198 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [35196149];  Lines vectorized so far: [9400000]; Seq/sec: [53879.31]; Words/sec: [204728.76]; learningRate: [0.0020455227227388407]
+
+2020-01-05 19:04:30,069 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [35572326];  Lines vectorized so far: [9500000]; Seq/sec: [53447.35]; Words/sec: [204689.22]; learningRate: [0.0018001842246389622]
+
+2020-01-05 19:04:31,935 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [35947276];  Lines vectorized so far: [9600000]; Seq/sec: [53590.57]; Words/sec: [204649.37]; learningRate: [0.001555647916865638]
+
+2020-01-05 19:04:33,830 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [36322358];  Lines vectorized so far: [9700000]; Seq/sec: [52770.45]; Words/sec: [204577.68]; learningRate: [0.0013110229116253147]
+
+2020-01-05 19:04:35,727 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [36697039];  Lines vectorized so far: [9800000]; Seq/sec: [52714.81]; Words/sec: [204502.99]; learningRate: [0.0010666607378497061]
+
+2020-01-05 19:04:37,590 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [37071052];  Lines vectorized so far: [9900000]; Seq/sec: [53676.87]; Words/sec: [204464.51]; learningRate: [8.227348773492738E-4]
+
+2020-01-05 19:04:39,466 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [37445957];  Lines vectorized so far: [10000000]; Seq/sec: [53333.33]; Words/sec: [204418.30]; learningRate: [5.782272658152732E-4]
+
+2020-01-05 19:04:41,303 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [37821167];  Lines vectorized so far: [10100000]; Seq/sec: [54406.96]; Words/sec: [204415.54]; learningRate: [3.3351878060600696E-4]
+
+2020-01-05 19:04:43,141 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in VectorCalculationsThread 0
+                
+Epoch: [1]; Words vectorized so far: [38196047];  Lines vectorized so far: [10200000]; Seq/sec: [54406.96]; Words/sec: [204411.06]; learningRate: [1.0E-4]
+
+2020-01-05 19:04:43,856 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+Epoch [1] finished; Elements processed so far: [38332549];  Sequences processed: [10236478]
+
+2020-01-05 19:04:43,856 - [INFO] - from org.deeplearning4j.models.sequencevectors.SequenceVectors in main
+                
+Time spent on training: 187575 ms
+
+2020-01-05 23:59:06,758 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-01-05 23:59:07,409 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 4
+
+2020-01-05 23:59:07,467 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 4
+
+2020-01-05 23:59:07,474 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2020-01-05 23:59:07,474 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [8]; Memory: [3.5GB];
+
+2020-01-05 23:59:07,474 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-01-05 23:59:56,416 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-01-05 23:59:57,264 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 4
+
+2020-01-05 23:59:57,351 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 4
+
+2020-01-05 23:59:57,360 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2020-01-05 23:59:57,360 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [8]; Memory: [3.5GB];
+
+2020-01-05 23:59:57,360 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
