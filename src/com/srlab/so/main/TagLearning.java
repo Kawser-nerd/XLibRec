@@ -32,8 +32,8 @@ public class TagLearning {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		//fileRead();
-		//word2vecTagLearning();
-		word2vecLoadModel();
+		word2vecTagLearning();
+		//word2vecLoadModel();
 	}
 	
 	public static void word2vecTagLearning() throws IOException
@@ -97,7 +97,7 @@ public class TagLearning {
 			   tags = tags.replace(">", "");
 			   String []tag = tags.split(" ");
 			   int length = tag.length;
-			   if(length >= 3) /// at least three tags
+			   if(length > 4) /// at least three tags
 			   {
 				   /* Not sure this is required or not 
 				   for (int i = 0; i < length; i++)
